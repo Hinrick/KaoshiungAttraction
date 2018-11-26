@@ -1,0 +1,219 @@
+
+.wrap{
+
+}
+.header{
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: calc(10%);
+  padding-bottom: calc(5%);
+  width: 100%;
+
+  background-image:url(https://hexschool.github.io/JavaScript_HomeWork/assets/the-urban-landscape-1698285.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  font-size: calc(200%);
+
+}
+
+.header h1{
+  margin-bottom: 2%;
+  text-align: center;
+  font-size: calc(150%);
+  letter-spacing: 10px;
+}
+
+.header select{
+  /* TODO should be chnage to % */
+  height: 40px;
+  width: 30%;
+  margin-left: 35%;
+  border: #fff solid 3px;
+  background:rgba(255,255,255,0.5);
+  font-size: 15px;;
+}
+
+.header select option{
+  padding: 5%;
+  font-size: 20%;
+}
+
+.popular{
+  margin-top: calc(-2%);
+  margin-left: calc(10%);
+  margin-right: calc(10%);
+  background-color: #fff;
+  box-shadow: 0px 0px 50px;
+  border-radius: 4px;
+  width:80%;
+  height:110%;
+  padding-bottom: 3%;
+  font-size: 16px;
+  color:#000;
+}
+
+.popular span{
+  margin-left: 5%;
+  text-align:left;
+}
+
+
+.popular ul li{
+  margin-top: calc(1%);
+  color: #fff;
+  float:left;
+  display: inline;
+  padding-left: calc(3%);
+  padding-right: calc(3%);
+  padding-top: calc(1%);
+  padding-bottom: calc(1%);
+  border-radius: 2px;
+}
+
+
+.popular #pop1{
+  background-color: #8A82CC;
+  margin-left: calc(5%);
+}
+
+.popular #pop2{
+  background-color: #FFA782;
+  margin-left: calc(5%);
+}
+
+.popular #pop3{
+  background-color: #F5D005;
+  margin-left: calc(5%);
+}
+
+.popular #pop4{
+  background-color:  #559AC8;
+  margin-left: calc(5%);
+}
+
+.content-header{
+  margin-top: 5%;
+}
+
+.line{
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  border-top: #559AC8 dashed 3px;
+}
+
+.circle{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: calc(-1%);
+  background-color: #fff;
+  border: #559AC8 solid 2px;
+  border-radius: 100%;
+  width: 40px;
+  height: 40px;
+}
+
+.trangle{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: calc(-1.5%);
+  background-color: #fff;
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+  border-top: 14px solid #559AC8;
+  width: 0;
+  height: 0;
+}
+
+.content{
+  margin-top: calc(5%);
+}
+
+.content h2{
+  margin-top: calc(2%);
+  margin-bottom: calc(2%);
+  text-align: center;
+  font-size: 200%;
+  color: #8A82CC;
+}
+
+.content ul li{
+  margin-left: 7%;
+  margin-bottom: 2%;
+  box-shadow: 0px 0px 1px;
+  width: 40%;
+  height:100%;
+  float: left;
+}
+
+.content img{
+  width: 100%;
+  height: 200px;
+  float: left;
+}
+
+.content #AtttactionName{
+  margin-top: calc(-8%);
+  margin-left: calc(3%);
+  float:left;
+  color:#fff;
+  font-size: 150%;
+}
+
+.content #AttractionZone{
+  margin-top: calc(-8%);
+  margin-right: calc(3%);
+  float:right;
+  color:#fff;
+  font-size: 100%;
+}
+
+.content li p{
+  line-height:150%;
+}
+
+.content ul li p img{
+  margin-top: 1%;
+  margin-left: 3%;
+  width: 3%;
+  height: 3%;
+}
+
+.content ul li span{
+  margin-left: 3%;
+}
+
+
+#Telephone img{
+  /* Why it goes a bit righter  */
+  margin-left: -2.5%;
+  width: 2%;
+  height: 2%;
+}
+
+#TicketPrice img{
+  margin-top: -4%;
+  margin-bottom: 3%;
+  margin-right: 10%;
+  float: right;
+  width: 4%;
+  height: 4%;
+}
+
+#clearfix {
+  clear:both;
+}
+
+.footer{
+  padding-top: 2%;
+  padding-bottom: 2%;
+  width: 100%;
+  text-align: center;
+  background-color: #559AC8;
+  color: #fff;
+}
+
+#Footer-WebName{
+  color:#F5D005;
+}
